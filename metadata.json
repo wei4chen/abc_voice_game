@@ -1,0 +1,6 @@
+{
+  "name": "幼稚園語音ABC教材",
+  "description": "幫助幼稚園孩童（約六歲）透過語音認讀與拼讀，消滅掉落字母單字的趣味教材與互動遊戲",
+  "requestFramePermissions": ["microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
