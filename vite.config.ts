@@ -5,6 +5,7 @@ import {defineConfig} from 'vite';
 
 export default defineConfig(() => {
   return {
+    base: '/abc_voice_game/',
     plugins: [react(), tailwindcss()],
     resolve: {
       alias: {
