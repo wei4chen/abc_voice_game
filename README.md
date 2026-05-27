@@ -6,7 +6,7 @@
 
 This contains everything you need to run your app locally.
 
-View your app in AI Studio: https://ai.studio/apps/7fe1f66e-ca4e-48c6-9406-5a82e49b2aed
+View your app in AI Studio: https://wei4chen.github.io/abc_voice_game/
 
 ## Run Locally
 
