@@ -669,7 +669,7 @@ export const GameBoard: React.FC<GameBoardProps> = ({
 
           {/* Falling Words Rendering list */}
           <AnimatePresence>
-            {words.map(fw => {
+            {words.map((fw, idx) => {
               return (
                 <div
                   key={fw.id}
@@ -677,6 +677,7 @@ export const GameBoard: React.FC<GameBoardProps> = ({
                   style={{
                     left: `${fw.x}%`,
                     top: `${fw.y}%`,
+                    zIndex: words.length - idx,
                   }}
                   id={`falling-word-block-${fw.word}`}
                 >
